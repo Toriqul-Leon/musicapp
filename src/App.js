@@ -1,4 +1,5 @@
 import "./App.css";
+import DownloadMusic from "./components/DownloadMusic";
 import Experience from "./components/Experience";
 import Header from "./components/Header";
 import Hero from "./components/Hero";
@@ -11,6 +12,7 @@ function App() {
       <Hero></Hero>
       <Experience></Experience>
       <Search></Search>
+      <DownloadMusic></DownloadMusic>
     </div>
   );
 }
