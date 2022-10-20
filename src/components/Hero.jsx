@@ -3,7 +3,7 @@ import Download from "./Download";
 
 function Hero() {
   return (
-    <div className="wrapper bg-[#081730] flex items-center justify-between px-[5rem] rounded-b-[5rem] w-[100%] h-[35rem]">
+    <div className="wrapper bg-[#081730] flex items-center justify-between px-[5rem] rounded-b-[5rem] w-[100%] h-[35rem] relative z-[3]">
       {/* Left side */}
       <div className="headings flex flex-col items-start justify-center h-[100%] text-[3rem]">
         <span>Experience The</span>
