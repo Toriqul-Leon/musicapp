@@ -3,11 +3,11 @@ import MusicPlayer from "./MusicPlayer";
 
 function Search() {
   return (
-    <div className="search relative h-[65rem] px-[5rem] pt-[18rem] pb-[10rem] bg-[#081730] mt-[-15rem] z-[1] flex items-center justify-between rounded-b-[5rem]">
+    <div className="search relative h-[65rem] px-[5rem] bg-[#081730] pt-[18rem] pb-[10rem] mt-[-15rem] z-[1] flex items-center justify-between rounded-b-[5rem]">
       {/* Left Side */}
       <div className="left flex-1">
         <img
-          className="absolute top-[22rem] left-[-47rem]"
+          className="absolute top-[22rem] left-[-120rem]"
           src={require("../img/backgraphics.png")}
           alt=""
         />
