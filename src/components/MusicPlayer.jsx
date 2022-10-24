@@ -2,7 +2,7 @@ import React from "react";
 
 function MusicPlayer() {
   return (
-    <div className="musicPlayer flex flex-col px-5 w-[78%] border-2 border-black py-3 bg-[#232A4e] rounded-xl ml-[13rem] mt-5">
+    <div className="musicPlayer flex flex-col px-5 w-[78%] border-2 border-black py-3 bg-[#232A4e] rounded-xl mt-5">
       <div className="upperPart flex items-center justify-between">
         {/* Profile */}
         <div className="profile flex ">
